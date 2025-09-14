@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    font-family: 'Inter';
-    scroll-behavior: smooth;
+* {
+  font-family: "Inter";
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* Fallback für ältere Browser */
+  touch-action: pan-y; /* blockt horizontales Wackeln beim Scrollen */
+}
+
+@supports (overflow: clip) {
+  html,
+  body,
+  #root {
+    overflow-x: clip; /* moderne, saubere Variante */
+  }
 }
