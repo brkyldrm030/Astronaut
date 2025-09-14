@@ -5,7 +5,6 @@ export default function Quote() {
   return (
     <Section id="quote">
       <div className="grid gap-10 md:grid-cols-[1.1fr,1fr] items-center opacity-60">
-        <img src={city} alt="" className="rounded-lg ring-1 ring-white/10" />
         <div>
           <h3 className="text-2xl font-semibold max-w-md text-white">
             Lorem Ipsum

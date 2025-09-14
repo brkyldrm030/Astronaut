@@ -1,5 +1,5 @@
 import Section from "./Section";
-import planet from "../assets/Planet.png";
+import Planet from "../assets/Planet.png";
 import astronaut from "../assets/Astronaut.png";
 
 export default function Hero() {
@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Hintergrund-Planet */}
       <img
         src={Planet}
-        alt=""
+        alt="Planet"
         aria-hidden
         className="pointer-events-none select-none absolute left-1/2 top-0 -translate-x-1/2 
                       w-[56rem] max-w-none opacity-70"
