@@ -1,6 +1,5 @@
 // src/components/Quote.jsx
 import Section from "./Section";
-import city from "../assets/city.jpg";
 
 export default function Quote() {
   return (
