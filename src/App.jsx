@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="bg-gray-950">
+    <div className="bg-gray-950 overflow-x-clip">
       <Navbar />
       <main>
         <Hero />
